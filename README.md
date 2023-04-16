@@ -1,4 +1,4 @@
-# Collection of Python3 Codes amd Examples
+# Collection of Python3 Codes and Examples
 
 ## Summary
 
@@ -16,14 +16,6 @@ Examples, DDO and Some kind of Roadmap from Foundtaion to Higher level of Python
 
 ## Basics
 
-
-## Intermediate
-
-
-## OOP
-
-
-## Python3 for Security / PenTesting
-
-
-## Python3 for Robotics
+0. [Comments](Basics/000.Comments/README.md)
+1. [Python Data Types](Basics/001.DT/README.md)
+2. Conditional Statements (if/elif/else/match case)

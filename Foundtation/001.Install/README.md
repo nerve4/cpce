@@ -3,19 +3,19 @@
 ## Install on Ubuntu
 
 ### Setting Up Python 3
-```
+```bash
 sudo apt update && sudo apt -y upgrade
 ```
 Make sure, all the following pkgs installed on your machine:
-```
+```bash
 sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
 After process completed, check the installed version of python3:
-```
+```bash
 python3 -V
 ```
 then install pip:
-```
+```bash
 sudo apt install -y python3-pip
 ```
 
@@ -24,7 +24,7 @@ sudo apt install -y python3-pip
 Virtual environments enable you to have an isolated space on your server for Python projects.
 
 The install steps are:
-```
+```bash
 sudo apt install -y python3-venv
 mkdir environments && cd environments
 
@@ -33,7 +33,7 @@ ls my_env
 ```
 
 To use this environment, you need to activate it:
-```
+```bash
 source my_env/bin/activate
 ```
 
